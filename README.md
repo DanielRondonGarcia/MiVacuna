@@ -27,6 +27,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 - Copy __.env.example__ file to __.env__ and edit database credentials there, also email provider settings (to send verification codes)
 - Run __composer install__
 - Run __php artisan key:generate__
+- Run __php artisan migrate:fresh__ (if already have the database run this)
 - Run __php artisan migrate --seed__ (it has some seeded data for your testing)
 - That's it: launch the main URL. 
 - You can login to adminpanel with default credentials __admin@admin.com__ - __password__
